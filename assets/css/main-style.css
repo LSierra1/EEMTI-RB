@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@300&family=Quicksand:wght@600&family=Righteous&family=Signika+Negative&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: linear-gradient(45deg, #34a1eb, #25a7b0);
+  font-size: 100%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  border-width: 0px 0px 1px 0px;
+}
+.navbar-menu {
+  display : flex;
+  position: absolute;
+  right: 15%;
+  flex-direction: row;
+  gap: 30px;
+  border: solid 0px black;
+  transition: border-width linear 0.5s;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+.navbar-menu a:hover {
+  border-bottom: 1px solid black;
+  transition: border-width linear 0.5s;
+}
+.navbar-menu a:link {
+  color: black;
+}
+.navbar-menu a:visited {
+  color: black
+}
+.logo-index {
+  position: relative;
+  width: 7%;
+  left: 10%;
+}
+.person-audacioso {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+.main-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  left: 15%;
+  top: 30%;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.main-ola {
+  font-family: 'Righteous', cursive;
+  font-size: 90px;
+}
+.main-lorem {
+  font-family: 'Signika Negative', sans-serif;
+}
+.btn {
+  background-color: white;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: box-shadow 0.5s;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 4px 5px 4px rgb(0, 255, 55);
+  transition: all 0.5s;
+}
+.section-main-about {
+  position: absolute;
+  bottom: -25%;
+  left: 30%;
+}
+.h3-lorem-Ipsum {
+  border-top: 1px solid #2e2e2e;
+  padding-top: 50px;
+  border-style: 0px;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.main-about {
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  left: -20%;
+  top: 50%;
+}
+.dummy-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
