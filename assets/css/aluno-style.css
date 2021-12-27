@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@300&family=Quicksand:wght@600&family=Righteous&family=Signika+Negative&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+body {
+    background: linear-gradient(225deg, #34a1eb, #25a7b0);
+    font-size: 100%;
+}
+/* Parte 1 */
+.header-dashboard {
+    border: 1px solid black;
+    border-width: 0 0 1px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+.img-div-header-dashboard {
+    user-select: none;
+    height: 60px;
+}
+.div-header-dashboard {
+    transition: border 0.5s;
+    display: flex;
+    gap: 70px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+.div-header-dashboard a:link, .div-header-dashboard a:visited {
+    color: black;
+}
+.div-header-dashboard a:hover {
+    border: 1px solid black;
+    border-width: 0 0 1px 0;
+    transition: border 0.5s;
+}
+/* Parte 2 */
+.main-content {
+
+}
+.main-content-information {
+
+}
+.main-infor-container {
+    display: flex;
+    flex-direction: row;
+}
+.analysts_INTP_isaac_newton {
+    user-select: none;
+}

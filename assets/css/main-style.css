@@ -13,8 +13,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px solid black;
-  border-width: 0px 0px 1px 0px;
+  border: solid black;
+  border-width: 0 0 1px 0;
 }
 .navbar-menu {
   display : flex;
@@ -22,30 +22,24 @@ body {
   right: 15%;
   flex-direction: row;
   gap: 30px;
-  border: solid 0px black;
-  transition: border-width linear 0.5s;
+  border: solid 0 black;
+  transition: linear 0.5s;
   font-size: 20px;
   font-family: 'Nunito', sans-serif;
 }
 .navbar-menu a:hover {
   border-bottom: 1px solid black;
-  transition: border-width linear 0.5s;
+  transition: linear 0.5s;
 }
-.navbar-menu a:link {
+.navbar-menu a:link, .navbar-menu a:visited {
   color: black;
-}
-.navbar-menu a:visited {
-  color: black
 }
 .logo-index {
   position: relative;
-  width: 7%;
+  width: 5%;
+  margin: 1%;
   left: 10%;
-}
-.person-audacioso {
-  position: absolute;
-  top: 20%;
-  right: 10%;
+  user-select: none;
 }
 .main-content {
   position: absolute;
@@ -56,6 +50,12 @@ body {
   top: 30%;
   align-items: flex-start;
   justify-content: space-around;
+}
+.person-audacioso {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  user-select: none;
 }
 .main-ola {
   font-family: 'Righteous', cursive;
@@ -71,7 +71,7 @@ body {
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  transition: box-shadow 0.5s;
+  transition: 0.5s;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -90,7 +90,6 @@ body {
 .h3-lorem-Ipsum {
   border-top: 1px solid #2e2e2e;
   padding-top: 50px;
-  border-style: 0px;
   font-family: 'Righteous', cursive;
   font-size: 30px;
   margin-bottom: 30px;
