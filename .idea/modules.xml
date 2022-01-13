@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/EEMTI-RB.iml" filepath="$PROJECT_DIR$/.idea/EEMTI-RB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SpaceHub/.idea/SpaceHub.iml" filepath="$PROJECT_DIR$/../SpaceHub/.idea/SpaceHub.iml" />
     </modules>
   </component>
 </project>
